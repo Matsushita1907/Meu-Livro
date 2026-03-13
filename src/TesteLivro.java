@@ -4,5 +4,9 @@ public class TesteLivro {
         Livro meuLivro = new Livro();
         meuLivro.titulo = "Harry Potter";
         meuLivro.editora = "editora";
+        System.out.println(meuLivro.titulo);
+        System.out.println(meuLivro);
+        Livro favorito = new Livro();
+        System.out.println(favorito);
     }
 }
